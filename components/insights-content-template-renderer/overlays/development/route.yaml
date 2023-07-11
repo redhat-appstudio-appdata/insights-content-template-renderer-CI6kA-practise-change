@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: insights-content-template-renderer
     app.kubernetes.io/part-of: insights-content-template-renderer
-  name: insights-content-templatee6do
+  name: insights-content-templateb2ux
 spec:
   port:
     targetPort: 8000
