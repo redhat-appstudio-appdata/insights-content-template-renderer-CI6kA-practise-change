@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: insights-content-template-renderer
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-ccx-tenant/insights-content-template-renderer/insights-content-template-renderer@sha256:42402dac43c50dc39bf8971fc93da37efab968a8424069507cf28e90cd2fedda
+        name: container-image
+        resources: {}
+status: {}
