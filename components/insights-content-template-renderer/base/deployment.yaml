@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: insights-content-template-renderer
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rh-ccx-tenant/insights-content-template-renderer/insights-content-template-renderer@sha256:42402dac43c50dc39bf8971fc93da37efab968a8424069507cf28e90cd2fedda
         imagePullPolicy: Always
         name: container-image
         ports:
